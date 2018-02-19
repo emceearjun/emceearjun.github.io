@@ -1,0 +1,22 @@
+.timeline {
+    text-align: left;
+}
+
+.timeline ul li {
+    list-style-type: none;
+    margin: 40px 0px;
+}
+
+.timeline ul li .tl-title {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.timeline ul li .tl-desc {
+    display: inline-block;
+}

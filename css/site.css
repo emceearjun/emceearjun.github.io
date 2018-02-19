@@ -25,10 +25,30 @@ html, body {
 
 .content {
     color: #333;
+    text-align: center;
 }
 
 .footer {
     color: #333;
     font-size: 0.8em;
     text-align: center;
+}
+
+.img-container {
+    padding: 20px;
+    margin: 20px;
+}
+
+.img-container img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333;
+    display: inline-block;
+    margin-bottom: 3px;
 }
