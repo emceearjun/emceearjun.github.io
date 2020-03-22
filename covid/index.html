@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="script.js" type="module"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card chart-container" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Covid cases by country</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            <select id="country-selector"> </select>
+          </h6>
+          <canvas id="covidLineChart"></canvas>
+        </div>
+      </div>
+      <div class="card chart-container" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Top 5 countries with confirmed cases</h5>
+          <canvas id="covidPieChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

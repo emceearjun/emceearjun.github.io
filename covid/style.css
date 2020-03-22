@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.chart-container {
+    margin: 20px;
+    width: auto !important;
+}
